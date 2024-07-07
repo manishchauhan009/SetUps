@@ -53,7 +53,7 @@ Follow these steps to set up Tailwind CSS in your project using Vite.
 8. **Link your CSS file in your HTML**
   Ensure your HTML file links to the input.css file you created:
     ```html
-      <link href="/path/to/input.css" rel="stylesheet">
+      <link href="./input.css" rel="stylesheet">
 
 9. **Start the development server**
   Run the following command to start Vite:
