@@ -7,15 +7,15 @@ Follow these steps to set up Tailwind CSS in your project using Vite.
 1. **Initialize a new Node.js project**
 
    Open your terminal and run:
-   ```bash
+   ```terminal
    npm init -y
 2. **Install Tailwind CSS, PostCSS, and Autoprefixer**
    Open your terminal and run:
-   ```bash
+   ```terminal
    npm install -D tailwindcss postcss autoprefixer
 3. **Generate Tailwind and PostCSS configuration files**  
   Open your terminal and run:
-   ```bash
+   ```terminal
    npx tailwindcss init -p
 
 4. **Configure Tailwind**
@@ -46,17 +46,17 @@ Follow these steps to set up Tailwind CSS in your project using Vite.
     Open package.json and add the following script:
     ```json
     "scripts": {
-  "start": "vite"
-}
+    "start": "vite"
+      }
 
 
 8. **Link your CSS file in your HTML**
   Ensure your HTML file links to the input.css file you created:
     ```html
-<link href="/path/to/input.css" rel="stylesheet">
+      <link href="/path/to/input.css" rel="stylesheet">
 
 9. **Start the development server**
   Run the following command to start Vite:
-  ```bash
-npm run start
+  ```terminal
+     npm run start
 
