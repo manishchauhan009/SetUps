@@ -22,7 +22,7 @@ Follow these steps to set up Tailwind CSS in your project using Vite.
     Open the tailwind.config.js file and set the content property:
     ```javascript
     module.exports = {
-    content: ["./src/**/*.{html,js}"],
+    content: ["*"],
     theme: {
     extend: {},
     },
