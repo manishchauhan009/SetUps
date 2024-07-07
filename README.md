@@ -35,10 +35,12 @@ Follow these steps to set up Tailwind CSS in your project using Vite.
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
+```
 
 6. **Install Vite**
   ```terminal
   npm install vite
+```
 
 7. **Update package.json scripts**
     Open package.json and add the following script:
@@ -46,6 +48,7 @@ Follow these steps to set up Tailwind CSS in your project using Vite.
     "scripts": {
   "start": "vite"
 }
+
 
 8. **Link your CSS file in your HTML**
   Ensure your HTML file links to the input.css file you created:
@@ -57,4 +60,3 @@ Follow these steps to set up Tailwind CSS in your project using Vite.
   ```bash
 npm run start
 
-10. 
